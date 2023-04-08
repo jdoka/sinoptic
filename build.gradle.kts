@@ -14,6 +14,9 @@ repositories {
 dependencies {
     // https://mvnrepository.com/artifact/org.telegram/telegrambots
     implementation("org.telegram:telegrambots:6.3.0")
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    implementation("ch.qos.logback:logback-classic:1.4.6")
+
 
     testImplementation(kotlin("test"))
 }
